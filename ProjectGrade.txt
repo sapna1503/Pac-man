@@ -1,0 +1,11 @@
+Originality 	4/5
+
+Size of project 18/20
+
+Quality of UI 75/80
+    Hard to control pacman
+    What is the text on the bottom for?
+Working code 75/75
+Quality of code 19/20
+Some long methods
+total 191/200

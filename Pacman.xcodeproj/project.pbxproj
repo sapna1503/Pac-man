@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8123DD611FECDB6A00468B93 /* ProjectGrade.txt in Resources */ = {isa = PBXBuildFile; fileRef = 8123DD601FECDB6A00468B93 /* ProjectGrade.txt */; };
 		95844BD51FEADFF700E04F9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95844BD41FEADFF700E04F9C /* AppDelegate.swift */; };
 		95844BD71FEADFF700E04F9C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95844BD61FEADFF700E04F9C /* GameScene.sks */; };
 		95844BD91FEADFF700E04F9C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 95844BD81FEADFF700E04F9C /* Actions.sks */; };
@@ -15,8 +16,10 @@
 		95844BE01FEADFF700E04F9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95844BDE1FEADFF700E04F9C /* Main.storyboard */; };
 		95844BE21FEADFF700E04F9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95844BE11FEADFF700E04F9C /* Assets.xcassets */; };
 		95844BE51FEADFF700E04F9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95844BE31FEADFF700E04F9C /* LaunchScreen.storyboard */; };
-		95844BF01FEADFF700E04F9C /* PacmanTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95844BEF1FEADFF700E04F9C /* PacmanTests.swift */; };
-		95844BFB1FEADFF700E04F9C /* PacmanUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95844BFA1FEADFF700E04F9C /* PacmanUITests.swift */; };
+		95844C091FEAE20100E04F9C /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95844C081FEAE20100E04F9C /* Player.swift */; };
+		958DB1E11FEAFE6D0037F60A /* Boundary.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DB1E01FEAFE6D0037F60A /* Boundary.swift */; };
+		958DB1E31FEB17790037F60A /* Coin.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DB1E21FEB17790037F60A /* Coin.swift */; };
+		958DB1E51FEB32670037F60A /* Ghost.swift in Sources */ = {isa = PBXBuildFile; fileRef = 958DB1E41FEB32670037F60A /* Ghost.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8123DD601FECDB6A00468B93 /* ProjectGrade.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ProjectGrade.txt; sourceTree = "<group>"; };
 		95844BD11FEADFF700E04F9C /* Pacman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pacman.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95844BD41FEADFF700E04F9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95844BD61FEADFF700E04F9C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -48,11 +52,11 @@
 		95844BE41FEADFF700E04F9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		95844BE61FEADFF700E04F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95844BEB1FEADFF700E04F9C /* PacmanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PacmanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		95844BEF1FEADFF700E04F9C /* PacmanTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacmanTests.swift; sourceTree = "<group>"; };
-		95844BF11FEADFF700E04F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		95844BF61FEADFF700E04F9C /* PacmanUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PacmanUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		95844BFA1FEADFF700E04F9C /* PacmanUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PacmanUITests.swift; sourceTree = "<group>"; };
-		95844BFC1FEADFF700E04F9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95844C081FEAE20100E04F9C /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		958DB1E01FEAFE6D0037F60A /* Boundary.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Boundary.swift; sourceTree = "<group>"; };
+		958DB1E21FEB17790037F60A /* Coin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coin.swift; sourceTree = "<group>"; };
+		958DB1E41FEB32670037F60A /* Ghost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +87,8 @@
 		95844BC81FEADFF700E04F9C = {
 			isa = PBXGroup;
 			children = (
+				8123DD601FECDB6A00468B93 /* ProjectGrade.txt */,
 				95844BD31FEADFF700E04F9C /* Pacman */,
-				95844BEE1FEADFF700E04F9C /* PacmanTests */,
-				95844BF91FEADFF700E04F9C /* PacmanUITests */,
 				95844BD21FEADFF700E04F9C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -105,33 +108,19 @@
 			children = (
 				95844BD41FEADFF700E04F9C /* AppDelegate.swift */,
 				95844BD61FEADFF700E04F9C /* GameScene.sks */,
-				95844BD81FEADFF700E04F9C /* Actions.sks */,
 				95844BDA1FEADFF700E04F9C /* GameScene.swift */,
+				95844C081FEAE20100E04F9C /* Player.swift */,
+				958DB1E01FEAFE6D0037F60A /* Boundary.swift */,
+				958DB1E41FEB32670037F60A /* Ghost.swift */,
+				958DB1E21FEB17790037F60A /* Coin.swift */,
 				95844BDC1FEADFF700E04F9C /* GameViewController.swift */,
 				95844BDE1FEADFF700E04F9C /* Main.storyboard */,
+				95844BD81FEADFF700E04F9C /* Actions.sks */,
 				95844BE11FEADFF700E04F9C /* Assets.xcassets */,
 				95844BE31FEADFF700E04F9C /* LaunchScreen.storyboard */,
 				95844BE61FEADFF700E04F9C /* Info.plist */,
 			);
 			path = Pacman;
-			sourceTree = "<group>";
-		};
-		95844BEE1FEADFF700E04F9C /* PacmanTests */ = {
-			isa = PBXGroup;
-			children = (
-				95844BEF1FEADFF700E04F9C /* PacmanTests.swift */,
-				95844BF11FEADFF700E04F9C /* Info.plist */,
-			);
-			path = PacmanTests;
-			sourceTree = "<group>";
-		};
-		95844BF91FEADFF700E04F9C /* PacmanUITests */ = {
-			isa = PBXGroup;
-			children = (
-				95844BFA1FEADFF700E04F9C /* PacmanUITests.swift */,
-				95844BFC1FEADFF700E04F9C /* Info.plist */,
-			);
-			path = PacmanUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +234,7 @@
 				95844BD71FEADFF700E04F9C /* GameScene.sks in Resources */,
 				95844BE21FEADFF700E04F9C /* Assets.xcassets in Resources */,
 				95844BE51FEADFF700E04F9C /* LaunchScreen.storyboard in Resources */,
+				8123DD611FECDB6A00468B93 /* ProjectGrade.txt in Resources */,
 				95844BD91FEADFF700E04F9C /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -273,6 +263,10 @@
 				95844BDB1FEADFF700E04F9C /* GameScene.swift in Sources */,
 				95844BDD1FEADFF700E04F9C /* GameViewController.swift in Sources */,
 				95844BD51FEADFF700E04F9C /* AppDelegate.swift in Sources */,
+				958DB1E51FEB32670037F60A /* Ghost.swift in Sources */,
+				958DB1E31FEB17790037F60A /* Coin.swift in Sources */,
+				95844C091FEAE20100E04F9C /* Player.swift in Sources */,
+				958DB1E11FEAFE6D0037F60A /* Boundary.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,7 +274,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95844BF01FEADFF700E04F9C /* PacmanTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +281,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				95844BFB1FEADFF700E04F9C /* PacmanUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,9 +431,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7739QEN48;
 				INFOPLIST_FILE = Pacman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = apple.com.Pacman;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.Pacman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -453,9 +447,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H7739QEN48;
 				INFOPLIST_FILE = Pacman/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = apple.com.Pacman;
+				PRODUCT_BUNDLE_IDENTIFIER = edu.sdsu.cs.Pacman;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
